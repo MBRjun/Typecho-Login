@@ -32,7 +32,7 @@ $bodyClass = 'body-100';
 				<div id="large-header" class="large-header" style="height: 695px;">
 					<canvas id="demo-canvas" width="1920" height="695"></canvas>
 					<div class="logo_box">
-						<h3>Login to MBRBlock(blog.mbrjun.cn)</h3>
+						<h3>登录</h3>
 						<form action="<?php $options->loginAction(); ?>" method="post" name="login" role="form">
 							<div class="input_outer">
 								<span class="u_user"></span>
@@ -47,7 +47,7 @@ $bodyClass = 'body-100';
 							</div>
 							<div class="mb2" ><button type="submit" class="act-but submit" style="color: #FFFFFF">登入</button>
 							        <p class="more-link">
-            <a href="<?php $options->siteUrl(); ?>"><?php _e('<< 返回 MBRBlock'); ?></a>
+            <a href="<?php $options->siteUrl(); ?>"><?php _e('<< 返回'); ?></a>
             <?php if($options->allowRegister): ?>
             &bull;
             <a href="<?php $options->registerUrl(); ?>"><?php _e('注册'); ?></a>
